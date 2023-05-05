@@ -6,9 +6,13 @@ import FoodCategories from "./Components/Filter/FoodCategories";
 function App() {
   return (
     <div className="App">
-      <FoodCategories />
-      <Cart />
-      <Dishes />
+      <div className="block">
+        <FoodCategories />
+        <Cart />
+      </div>
+      <div className="block">
+        <Dishes />
+      </div>
     </div>
   );
 }
